@@ -1,0 +1,57 @@
+
+input[type="text"], input[type=email], input[type="password"], textarea{
+margin: 0;
+padding: 5px;
+border:1px solid #b4e1fe;
+color: black;
+font-size: 12px;
+outline:none;
+}
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus{
+-webkit-box-shadow:0px 0px 3px #aaa;
+box-shadow:0px 0px 3px #aaa;
+}
+
+.form-label{
+	font-size:12px;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+.error{
+	border:1px solid #F00;
+	background:#FC9;
+	padding:4px;
+}
+.error-text{
+	color:#F00;
+	font-size:12px;
+	font-weight:bold;
+}
+.success{
+	color: #25a628;
+border: 2px solid #bbffb0;
+background: #e2ffe0 url(/cPanel_magic_revision_0/cjt/images/icons/success.png) no-repeat 3px 10px;
+}
+.success-text{
+	color:#090;
+	font-size:12px;
+	font-weight:bold;
+}
+sup{
+	color:#F00;
+}
+
+.form-error{
+	border:1px solid #F00;
+}
+.loader{
+	border:1px solid #999;
+	height:20px;
+	width:200px;
+	margin-top:300px;
+	position:absolute;
+	background:#FFC;
+	padding:10px;
+	display:none;
+}
